@@ -1,0 +1,99 @@
+<!-- Declara que es un documento HTML5, No es una etiqueta, es una instruccion -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Siempre va a contener todos los metadatos, todo los imports y configuraciones de la pagina -->
+    <meta charset="UTF-8">
+    <!-- Este tipo de directiva ayuda al posicionamiento del sitio/web
+         , ayuda a ser mejor rastreada e indexada -->
+    <meta name="description" content="Pagina web para la materia de aplicaciones web">
+
+    <!-- Este es el inicio para aplicaciones responsivas/adaptables a pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pagina web mas</title>
+</head>
+
+<body>
+    <!--Contenido visible-->
+    Hola mundo
+    <!--Los tag/etiquetas mas importantes-->
+    <!--Los Titulos-->
+    <h1>Titulo1</h1> <!--Lo recomendable es solo usar h5-->
+    <h2>Titulo2</h2>
+    <h3>Titulo3</h3>
+    <h4>Titulo4</h4>
+    <h5>Titulo5</h5>
+    <h6>Titulo6</h6>
+
+    <!--Parrafos y Divisiones-->
+    <p>
+        Este es un parrafo y sirve para emparrafar un texto
+    </p>
+
+    <div>
+        Esta es una division que sirve para colocar texto
+    </div>
+
+    <br /> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+
+    <center> <!--Esto no deberia existir-->
+        Hay una regla no escrita que dice: No debe de existar nada fuera de una etiqueta.
+    </center>
+
+    <!--Listas (Desordenadas y Ordenadas)-->
+    <!--Ordenadas-->
+    <ul> <!--Unordened List-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+
+    <ol> <!--Ordened List-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ol>
+
+    <!--Enlaces o vinculos-->
+    <br><a href="#">
+        <b><i>Contenido</i></b>
+    </a> <!--Vinculo recursivo-->
+    <br><a href="https://www.google.com">
+        <!--Este vinculo abre el contenido en la misma pestaña-->
+        <i>google</i>
+    </a>
+    <br>
+    <a href="https://www.google.com" target="_blank">
+        <!--Este vinculo abre el contenido en otra pestaña-->
+        <b>google blank</b>
+    </a>
+
+    <!-- Existen 2 tipos de rutas/referencias, relativas y absolutas
+    Suaves y Duras 
+    -->
+
+    <a href="./view/vista01.html">vista01</a> <!--Relativa-->
+    <a href="C:\Proyectos\APW_4A\proyecto02\view\vista01.html">vista01</a> <!--Completa-->
+
+    <!--Imagenes-->
+    <!--Esto es un tag autocloseable, no usa </img> por defecto-->
+    <!--src -> source -> Fuente -> Origen-->
+    <!--alt -> Alternative -> Alternativa -> Alterno-->
+    <!--width -> Alternative -> Alternativa -> Alterno-->
+    <!--height -> Alternative -> Alternativa -> Alterno-->
+    <img src="./resources/images.jpg" alt="Esta es una imagen feliz"/>
+    <img src="./resources/images.jpg" alt="Esta es una imagen feliz" width="100"/>
+
+    <!-- Los atributos mas importantes
+     id -> Que genera un identificador en cada componente o tag
+     name -> Que genera un nombre en cada componente o tag
+     class -> Que agrupo los componentes en clases , se ocupa para agregar estilos-->
+</body>
+
+</html>
